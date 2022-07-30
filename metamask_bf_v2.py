@@ -95,7 +95,7 @@ while looper:
                                 value='//*[@id="app-content"]/div/div[3]/div/div/div/form/button').click()  # click restore
 
         # HERE we need to wait for the restore process to load!!
-        time.sleep(2)
+        time.sleep(3)
 
         try:  # after first login, click all done disapears
             driver.find_element(by=By.CSS_SELECTOR,
